@@ -50,6 +50,7 @@ python src/main.py
 
 - To change the number of emails fetched, edit the `fetch_recent_emails` call in `src/main.py`.
 - To use extractive summarisation, change the method to `'textrank'` in `summarize_emails_snippets`.
+- To use ChatGPT summarisation, change the method to `'chaptgpt'` in `summarize_emails_snippets`.
 - To change the recipient of the summary email, edit the `to_email` argument in `send_email_via_gmail` in `src/main.py`.
 
 ## License
